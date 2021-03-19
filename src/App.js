@@ -20,11 +20,11 @@ function App() {
     coin.name.toLowerCase().includes(search.toLowerCase()))
 
   return (
-    <div className="coin-app">
-    <div className = "coin-search">
-      <h1 className="coin-text">search crypto</h1>
+    <div className="coin-app p-8 flex flex-col items-center mt-16">
+    <div className = "coin-search my-16 flex flex-col items-center justify-center">
+      <h1 className="coin-text mb-8 text-center">search crypto</h1>
       <form>
-        <input type="text" placeholder="Search" className="coin-input"
+        <input type="text" placeholder="Search" className="coin-input pl-4 w-68 h-12 rounded-md border-none"
         onChange={handleChange}/>
       </form>
 
